@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="JsFile.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+
+</head>
+<body>
+<form>
+    <label>Name</label><br> <input type="text" id="Surname" onkeyup="check()"><br>
+    <label>Surname</label><br> <input type="text" id="Name" onkeyup="check()"><br>
+    <label>Age</label><br> <input type="text" id="Age" onkeyup="check()"><br>
+    <label>Address</label><br> <input type="text" id="Address" onkeyup="check()">
+    <br> <input id="AjaxGET" type="button" value="Send by Get"
+                onclick="sendDataByGetMethod()" disabled>
+    <br> <input id="AjaxPOST" type="button" value="Send by Post"
+                onclick="sendDataByPostMethod()" disabled>
+
+</form>
+
+</body>
+
+</html>
